@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EkabuMebel/static/css/main.3bb7b28e.chunk.css",
-    "main.js": "/EkabuMebel/static/js/main.ee627134.chunk.js",
-    "main.js.map": "/EkabuMebel/static/js/main.ee627134.chunk.js.map",
+    "main.js": "/EkabuMebel/static/js/main.eacaf7c7.chunk.js",
+    "main.js.map": "/EkabuMebel/static/js/main.eacaf7c7.chunk.js.map",
     "runtime-main.js": "/EkabuMebel/static/js/runtime-main.bfd13d9a.js",
     "runtime-main.js.map": "/EkabuMebel/static/js/runtime-main.bfd13d9a.js.map",
     "static/css/2.fde81c12.chunk.css": "/EkabuMebel/static/css/2.fde81c12.chunk.css",
@@ -102,6 +102,6 @@
     "static/css/2.fde81c12.chunk.css",
     "static/js/2.eea6afb4.chunk.js",
     "static/css/main.3bb7b28e.chunk.css",
-    "static/js/main.ee627134.chunk.js"
+    "static/js/main.eacaf7c7.chunk.js"
   ]
 }
