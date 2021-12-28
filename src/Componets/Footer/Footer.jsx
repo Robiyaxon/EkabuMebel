@@ -6,7 +6,7 @@ const Footer = () => {
      return (
           <div className={style.Wrapper}>
                <Block2 />
-               {/* <SimpleMap/>   */}
+               <SimpleMap/>  
                <  Drop_Footer/>
           </div>
      );
