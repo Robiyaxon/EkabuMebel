@@ -1,0 +1,41 @@
+.Wrapper{
+          width: 33%;
+          margin: 0 0.1%;
+          text-align: center;
+          text-decoration: none;
+          overflow: hidden;
+          margin-bottom: 0.7rem;
+}
+.ValidatorsP{
+          font-weight: 550;
+          margin: 4px 0;
+          font-size: 18px;
+          line-height: 130%;
+          color: black;}
+.Wrapper img{
+          width: 83%;
+          transition: 5s;
+          height: 200px;
+          margin-bottom: 0.5rem;
+}
+.Wrapper:hover img{
+transform: scale(1.1);
+}
+.NavLink2{
+          display: flex;
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: space-between;
+}
+@media screen and (max-width: 670.9px) {
+          .Wrapper{
+                    width: 99%;
+                    text-align: center;
+                    height: 230px;
+          }  
+          .Wrapper img{
+                    width: 83%;
+                    height: 200px;
+                    object-fit: cover;
+          }      
+}

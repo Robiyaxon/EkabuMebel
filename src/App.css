@@ -1,0 +1,9 @@
+.ant-modal-footer{
+          display: none;
+}
+.MuiDialogContent-root,.MuiDialogTitle-root{
+          background-color: #F8F3EF;
+}
+.ant-modal-body{
+          padding: 0 !important;
+}

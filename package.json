@@ -1,0 +1,66 @@
+{
+  "homepage": "http://Robiyaxon.github.io/EkabuMebel",
+  "name": "kuhni",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4",
+    "@coreui/react": "^4.0.0-alpha.3",
+    "@googlemaps/react-wrapper": "^1.1.16",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@react-google-maps/api": "^2.7.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.13",
+    "bootstrap": "^5.0.1",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-google-map": "^3.1.1",
+    "react-google-maps": "^9.4.5",
+    "react-google-maps-loader": "^4.3.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-yandex-maps": "^4.6.0",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.1.0",
+    "redux-form": "^8.3.7",
+    "reselect": "^4.0.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "tailwindcss": "^3.0.7"
+  }
+}

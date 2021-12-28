@@ -1,0 +1,25 @@
+.img_Modal{
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.IMG{
+   transition-duration: 0.3s;
+   margin-bottom: 0.5rem;
+}
+.button{
+    margin-top: 1rem;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+.IMG:hover{
+    transform: scale(1.1);
+}
+@media(min-width:0) and (max-width:600.9px){
+    .Header{
+        width: 90%;
+        text-align: center;
+    }
+    .IMG{
+        width: 100%;
+    }
+}

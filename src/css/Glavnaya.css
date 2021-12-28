@@ -1,0 +1,48 @@
+.Glavnaya {
+  padding   : 0 120px;
+  margin-top: 20px;
+}
+.Glavnaya_img {
+width: 100%;
+}
+.olmali{
+  width: 100%;
+}
+@media (min-width:0) and (max-width:950.9px) {
+  .Glavnaya1 {
+    padding: 0 !important;
+ 
+  }
+  .Glavnaya_img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .Glavnaya {
+    padding   : 0 ;
+    margin-top: 0;
+  }
+  .Glavnaya_Texts {
+    width : 100% !important;
+    height: 90px;
+  }
+
+  .GlavnayaText1 {
+    font-size    : 15.4px;
+    margin-bottom: 6px;
+  }
+
+  .GlavnayaText2 {
+    font-size: 13.5px;
+  }
+
+  .GLAVNAYA {
+    justify-content: center;
+  }
+}
+
+@media(min-width:951px) and (max-width:1365.9px) {
+  .Glavnaya {
+    padding   : 0 40px;
+    margin-top: 20px;
+  }
+}

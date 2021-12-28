@@ -1,0 +1,27 @@
+.MebelKatalog {
+          margin-top: 100px;
+}
+
+.title {
+          font-family: Cormorant Garamond;
+          font-size: 36px;
+          line-height: 100%;
+          width: 800px;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          color: #333333;
+}
+
+@media screen and (max-width: 960px) {
+          .MebelKatalog {
+                    margin-top: 30px;
+          }
+
+          .title {
+                    font-size: 20px;
+                    text-align: center;
+                    line-height: 25px;
+                    width: 80%;
+                    margin: 0 auto;
+          }
+}

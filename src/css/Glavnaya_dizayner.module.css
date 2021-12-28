@@ -1,0 +1,221 @@
+*{
+          box-sizing: border-box;
+          padding: 0;
+}
+.Wrapper{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-top: 70px;
+}
+.block{
+          width: 260px;
+          text-align: center;
+          background-color: #F8F3EF;
+          padding: 35px 50px;
+          margin: 0 3px;
+}
+/* .block img{
+       
+} */
+.block p{
+          font-family: HelveticaNeueCyr;
+          margin: 25px 0  20px 0;
+font-weight: 550;
+font-size: 18px;
+line-height: 130%;
+}
+ /* dizayners */
+.wrapper2{
+          margin-top: 100px;
+          display: flex;
+          flex-wrap: wrap;
+}
+.Input{
+   width: 450px;
+margin-top: 2.5rem;
+position: absolute;
+text-align: center;
+right: 9%;
+background: #333333;
+}
+.text h6{
+          font-family: Cormorant Garamond;
+font-size: 36px;
+width: 543px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.text img{
+          margin-top: -5rem;
+}
+.text p{
+ font-family: HelveticaNeueCyr;
+ width: 500px;
+margin: 50px 0 0 0 ;
+font-size: 16px;
+line-height: 130%;
+color: #333333;
+}
+.title{
+          font-family: HelveticaNeueCyr;
+font-weight: 550;
+font-size: 18px;
+line-height: 130%;
+margin-top: 77px;
+color: #FFFFFF;
+}
+.Input2{
+          width: 330px;
+          height: 50px;
+          margin-bottom: 20px;
+}
+.button{
+          width: 330px;
+height: 56px;
+left: calc(50% - 330px/2);
+top: calc(50% - 56px/2);
+border: none;
+color: #fff;
+background: #B71C1C;
+}
+.файлы , a{
+          color: #fff;
+          font-family: HelveticaNeueCyr;
+font-size: 16px;
+line-height: 150%;
+}
+.файлы{
+       margin: 29px 4.3rem;
+               
+}
+.internet{
+   margin-bottom: 6rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+}
+.block_1{
+   width: 40%;
+   margin-top: 2rem;
+}
+.img3{
+   margin-right: 0.5rem;
+}
+.block img{
+top: calc(50% - 16px );
+}
+.block:hover{
+transform: scale(1.1);
+z-index: 1;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+.block:hover p{
+   color: red;
+}
+@media screen and (max-width: 400.9px){
+          .Wrapper{ margin-top: 42px; 
+          justify-content: center;
+          }
+          .block{
+                    width: 85%;
+                    margin-top: 25px;
+                    border: 2px solid grey;
+                    padding: 50px 40px;
+                    border-radius: 5px;
+          }
+          .text img{
+             display: none;
+          }
+          .Input{
+            width: 100%;
+            position: inherit;
+            right: 0;  }
+            .wrapper2{
+               padding: 0 10px ;
+               width: 100%;
+               margin-top: 50px;
+     }
+     .title{
+margin-top: 30px;
+font-size: 14px;
+}
+     .text{
+        width: 100%;
+     }
+     .text h6{
+max-width: 100%  ;
+font-size: 26px;
+line-height: 110%;
+text-align: center;
+}
+.text p{
+   max-width: 100%;
+  margin: 35px 0 0 0 ;
+  text-align: center;
+  font-size: 16px;
+  }  
+  .Input2{
+   width: 80%;
+   height: 40px;
+   margin-bottom: 20px;
+}
+.button{
+   width: 80%;
+   font-size: 12px;
+height: 56px;
+}      
+.файлы , a{
+font-size: 16px;
+line-height: 150%;
+}
+.файлы{
+margin: 14px; 
+}     
+.block_1{
+   width: 45%;
+}
+.internet{
+   margin-bottom: 2rem;
+}
+}
+@media(min-width:401px) and (max-width:1125.9px){
+          .Wrapper{
+                    justify-content: center;
+                    margin-top: 20px;
+                    
+          }  
+          .block{
+                    margin: 10px;
+                    padding: 30px 40px;
+          }
+         
+          /* dizayner */
+           .text img{
+             display: none;
+          }
+          .wrapper2{
+             margin-top: 3rem;
+             padding: 0 50px;
+             justify-content: center;
+          }
+          .Input{
+            width: 620px ;
+         position: inherit;
+         right: 0;         }
+         .text{
+            width: 100%;
+         }
+         .text h6{
+            width: 100%;
+            text-align: center;
+            font-size: 22px;
+            line-height: 30px;
+         }
+         .text p{
+            width: 100%;
+            margin: 20px 0 0 0 ;
+         }
+
+}

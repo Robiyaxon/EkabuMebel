@@ -1,0 +1,112 @@
+.Header_imgs{
+  margin: 35px 0px 0 0 ; 
+}
+.Header_text1{
+    width: 189px;
+    height: 54px;
+    font-family: HelveticaNeueCyr;
+font-size: 14px;
+line-height: 130%;
+color: #333333;
+margin: 38px 0 0 0;
+}
+.Heade_text2{
+    width: 140px;height: 54px;font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr;
+font-size: 14px;
+line-height: 130%;
+margin: 38px 0 0 89px;
+}
+.Header_imgs2{
+    margin: 50px 0  0 153px ;
+    width: 30px;
+    height: 30px;
+}
+.Heade_text3{
+    width: 116px;
+    height: 54px;
+    font-family: HelveticaNeueCyr;
+font-size: 14px;
+line-height: 130%;
+margin: 38px 0 0 0 ;
+
+}
+.Header_Tels{
+    display: flex;
+
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px ;
+   width: 100%;
+}
+.Header_tel{
+    width: 193px;
+    height: 58px;
+    margin: 36px 0 0 15px;
+font-size: 22px;
+text-align: right;
+}
+.Header_tel1,.Header_tel2{
+    line-height: 130%;
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+
+    font-weight: 550;
+    font-family: HelveticaNeueCyr;
+}
+.Header_tel1:hover,.Header_tel2:hover{
+color: #333333;
+}
+.Header_imgs3{
+    margin: 50px 0 0 23px;
+    width: 30px;
+    height: 30px;
+}
+@media(min-width:0) and (max-width:960.9px){
+    .Header{
+        
+       display: none;
+    }}
+    
+@media(min-width:961px) and (max-width:1365.9px) {
+    .Header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px !important;
+       width: 100%;
+    }
+    .Header_text1{
+        width: 171px;
+        height: 54px;
+        font-family: HelveticaNeueCyr;
+    font-size: 13.4px;
+    line-height: 130%;
+    color: #333333;
+    margin: 38px 0 0 10px;
+    }
+    .Heade_text2{
+        width: 130px;height: 54px;
+    font-size: 13.4px;
+    margin: 38px 10px 0 30px;
+    }
+    .Heade_text3{
+    font-size: 13.4px;
+    margin: 38px 0 0 0 ;  
+    }
+    .Header_imgs2{
+        margin: 50px 0  0 53px ;
+        width: 30px;
+        height: 30px;
+    }
+    .Header_tel{
+        width: 163px;
+        height: 58px;
+        margin: 36px 0 0 15px;
+    font-weight: 550;
+    font-size: 17px;
+    color: #333333;
+    }
+}

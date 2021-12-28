@@ -1,0 +1,86 @@
+.title {
+          font-family: Cormorant Garamond;
+          font-size: 36px;
+          line-height: 100%;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          color: #333333;
+          width: 800px;
+          margin-top: 120px;
+}
+
+.block {
+          display: flex;
+          margin-top: 60px;
+          justify-content: space-between;
+}
+
+.reference {
+          width: 450px;
+          padding-bottom: 0.5rem;
+          margin-left: 40px;
+}
+
+.img {
+          width: 45%;
+}
+
+.Block23 {
+          width: 45%;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+}
+
+@media(min-width:0) and (max-width:661.9px) {
+          .title {
+                    line-height: 28px;
+                    font-size: 22px;
+                    margin: 0 auto;
+                    width: 80% !important;
+                    text-align: center;
+                    margin-top: 30px;
+          }
+
+          .block {
+                    margin-top: 30px;
+                    display: block;
+          }
+
+          .Wrapper {
+                    padding: 0 10px;
+          }
+
+          .block img,
+          .reference,
+          .title {
+                    width: 100%;
+          }
+
+          .reference {
+                    padding: 0.5rem;
+                    margin-left: 0;
+                    text-align: center;
+                    margin: 5px 0;
+                    width: 100%;
+          }
+
+          .Block23 {
+                    width: 80%;
+                    margin: 0 auto;
+          }
+}
+
+@media(min-width:661px) and (max-width:1400.9px) {
+          .title {
+                    width: 100%;
+          }
+
+          .img {
+                    width: 50%;
+          }
+
+          .reference {
+                    width: 80%;
+          }
+}
