@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/EkabuMebel/static/css/main.ce13f774.chunk.css",
-    "main.js": "/EkabuMebel/static/js/main.9aebfa33.chunk.js",
-    "main.js.map": "/EkabuMebel/static/js/main.9aebfa33.chunk.js.map",
+    "main.css": "/EkabuMebel/static/css/main.2308a912.chunk.css",
+    "main.js": "/EkabuMebel/static/js/main.8fb6c8f3.chunk.js",
+    "main.js.map": "/EkabuMebel/static/js/main.8fb6c8f3.chunk.js.map",
     "runtime-main.js": "/EkabuMebel/static/js/runtime-main.d414a1fd.js",
     "runtime-main.js.map": "/EkabuMebel/static/js/runtime-main.d414a1fd.js.map",
     "static/css/2.fde81c12.chunk.css": "/EkabuMebel/static/css/2.fde81c12.chunk.css",
-    "static/js/2.7005a09a.chunk.js": "/EkabuMebel/static/js/2.7005a09a.chunk.js",
-    "static/js/2.7005a09a.chunk.js.map": "/EkabuMebel/static/js/2.7005a09a.chunk.js.map",
+    "static/js/2.86faa181.chunk.js": "/EkabuMebel/static/js/2.86faa181.chunk.js",
+    "static/js/2.86faa181.chunk.js.map": "/EkabuMebel/static/js/2.86faa181.chunk.js.map",
     "index.html": "/EkabuMebel/index.html",
     "static/css/2.fde81c12.chunk.css.map": "/EkabuMebel/static/css/2.fde81c12.chunk.css.map",
-    "static/css/main.ce13f774.chunk.css.map": "/EkabuMebel/static/css/main.ce13f774.chunk.css.map",
-    "static/js/2.7005a09a.chunk.js.LICENSE.txt": "/EkabuMebel/static/js/2.7005a09a.chunk.js.LICENSE.txt",
+    "static/css/main.2308a912.chunk.css.map": "/EkabuMebel/static/css/main.2308a912.chunk.css.map",
+    "static/js/2.86faa181.chunk.js.LICENSE.txt": "/EkabuMebel/static/js/2.86faa181.chunk.js.LICENSE.txt",
     "static/media/1.0ff0778f.jfif": "/EkabuMebel/static/media/1.0ff0778f.jfif",
     "static/media/1.2c57a18d.png": "/EkabuMebel/static/media/1.2c57a18d.png",
     "static/media/1.5549c8aa.jpg": "/EkabuMebel/static/media/1.5549c8aa.jpg",
@@ -98,8 +98,8 @@
   "entrypoints": [
     "static/js/runtime-main.d414a1fd.js",
     "static/css/2.fde81c12.chunk.css",
-    "static/js/2.7005a09a.chunk.js",
-    "static/css/main.ce13f774.chunk.css",
-    "static/js/main.9aebfa33.chunk.js"
+    "static/js/2.86faa181.chunk.js",
+    "static/css/main.2308a912.chunk.css",
+    "static/js/main.8fb6c8f3.chunk.js"
   ]
 }
