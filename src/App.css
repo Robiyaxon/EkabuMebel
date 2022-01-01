@@ -1,6 +1,9 @@
 .ant-modal-footer{
           display: none;
 }
+.Map23{
+          border: 2px solid red !important;
+}
 .MuiDialogContent-root,.MuiDialogTitle-root{
           background-color: #F8F3EF;
 }

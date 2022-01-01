@@ -1,12 +1,12 @@
 import React from 'react';
-import SimpleMap from './Map';
 import style from "../../css/Map.module.css"
 import { Block2 } from './Block2';
+import Map2 from './Map';
 const Footer = () => {
      return (
           <div className={style.Wrapper}>
                <Block2 />
-               <SimpleMap/>  
+               <Map2/>
                <  Drop_Footer/>
           </div>
      );

@@ -2,7 +2,10 @@
           width: 50%;
           height: 370px;
 }
-
+.Map_block{
+          width: 100% ;
+          height: 100% ;
+}
 .Wrapper {
           margin-top: 100px;
           justify-content: space-between;
