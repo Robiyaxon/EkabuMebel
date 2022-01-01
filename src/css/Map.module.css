@@ -1,10 +1,12 @@
 .Map {
           width: 50%;
           height: 370px;
+          overflow: hidden;
 }
 .Map_block{
-          width: 100% ;
+          width: 99.9% !important;
           height: 100% ;
+
 }
 .Wrapper {
           margin-top: 100px;

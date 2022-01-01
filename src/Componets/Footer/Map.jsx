@@ -3,7 +3,7 @@ import React from 'react';
  import { YMaps, Map, Placemark,ZoomControl, FullscreenControl, GeolocationControl } from 'react-yandex-maps';
  const Map2 = () => (
   <div className={style.Map}>
-    <YMaps >
+    <YMaps className={style.Map_block}>
     <div className={style.Map_block}>
       <Map className={style.Map_block}
     defaultState={{
