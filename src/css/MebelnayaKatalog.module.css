@@ -1,44 +1,53 @@
-.GlavnayaKatalog{
-          display: flex;
-          flex-wrap: wrap;
-          margin-top: 57px;
-          justify-content: space-between;
+.GlavnayaKatalog {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 57px;
+        justify-content: space-between;
 }
-.link{
-font-family: HelveticaNeueCyr;
-font-size: 19px;
-color: #333333;
+
+.link {
+        font-family: HelveticaNeueCyr;
+        font-size: 19px;
+        color: #333333;
 }
-.link2{
+
+.link2 {
         width: 100%;
         margin-bottom: 0.3rem;
+}
+
+.Katalog {
+        width: 20%;
+}
+
+.IMG {
+        width: 78%;
+}
+
+@media screen and (max-width: 1000.9px) {
+        .Katalog {
+                display: none;
         }
-.Katalog{
-         width: 20%;
-}
-.IMG{
-          width: 78%;
-}
-@media screen and (max-width: 1000.9px){
-          .Katalog{
-                   display: none;
-           } 
-           .GlavnayaKatalog{
+
+        .GlavnayaKatalog {
                 display: flex;
                 flex-wrap: wrap;
                 margin-bottom: 3rem;
                 margin-top: 37px;
                 justify-content: space-between;
-      }  
-      .IMG{
-        width: 100%;
+        }
+
+        .IMG {
+                width: 100%;
+        }
 }
-}
-@media(min-width:1001px) and (max-width:1365.9px){
-        .Katalog{
+
+@media(min-width:1001px) and (max-width:1365.9px) {
+        .Katalog {
                 width: 28%;
-       }
-       .IMG{
-                 width: 72%;
-       }
+        }
+
+        .IMG {
+                width: 72%;
+        }
 }

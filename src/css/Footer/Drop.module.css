@@ -1,0 +1,96 @@
+.Drop_Header {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          border-top: 2px solid grey;
+          padding: 45px 0;
+          width: 100%;
+          margin: 32px 140px 0px 140px;
+          box-sizing: border-box;
+          justify-content: space-around;
+}
+
+.Drop_block1 {
+          width: 460px;
+}
+
+.Drop_block1,
+.Drop_block2,
+.Drop_block3 {
+          font-family: HelveticaNeueCyr;
+          font-size: 13px;
+          line-height: 130%;
+          color: #333333;
+}
+
+.Drop_block2 {
+          width: 123px;
+}
+
+.Drop_block3 {
+          width: 190px;
+}
+
+@media (min-width:0) and (max-width:650.9px) {
+          .Drop_block1 {
+                    margin-bottom: 1.5rem;
+                    width: 100%;
+          }
+
+          .Drop_block1,
+          .Drop_block2,
+          .Drop_block3 {
+                    text-align: center;
+          }
+
+          .Drop_block2 {
+                    width: 40%;
+          }
+
+          .Drop_Header {
+                    border-top: 2px solid grey;
+                    padding: 25px 0;
+                    width: 90%;
+                    margin: 1rem auto;
+                    box-sizing: border-box;
+                    justify-content: space-around;
+          }
+
+          .Drop_block3 {
+                    width: 55%;
+          }
+}
+
+@media(min-width:651px) and (max-width:1259.9px) {
+          .Drop_Header {
+                    padding: 45px 0;
+                    width: 100%;
+                    margin: 25px 10px;
+          }
+
+          .Drop_block1 {
+                    width: 100%;
+                    margin-bottom: 2rem;
+          }
+
+          .Drop_block1,
+          .Drop_block2,
+          .Drop_block3 {
+                    text-align: center;
+          }
+
+          .Drop_block2 {
+                    width: 45%;
+          }
+
+          .Drop_block3 {
+                    width: 45%;
+          }
+}
+
+@media (min-width:1260px) and (max-width:1300.9px) {
+          .Drop_Header {
+                    width: 100%;
+                    margin: 32px 90px;
+          }
+}

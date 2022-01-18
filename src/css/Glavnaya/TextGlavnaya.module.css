@@ -1,0 +1,63 @@
+.TextGlavnaya {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 67px;
+}
+
+.Block {
+   border-bottom: 2px solid red;
+   width: 340px;
+   margin: 15px 0;
+}
+
+.h6,
+.p {
+   font-family: HelveticaNeueCyr;
+   color: #333333;
+}
+
+.h6 {
+   font-weight: 550;
+   font-size: 18px;
+   line-height: 130%;
+}
+
+.p {
+   font-size: 16px;
+   line-height: 150%;
+}
+
+@media screen and (max-width: 960px) {
+   .TextGlavnaya {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 39px;
+   }
+
+   .Block {
+      border-bottom: 2px solid red;
+      margin-bottom: 15px !important;
+      width: 80%;
+      margin: 0 10px;
+      text-align: center;
+   }
+
+   .h6,
+   .p {
+      font-family: HelveticaNeueCyr;
+      color: #333333;
+   }
+
+   .h6 {
+      font-weight: 550;
+      font-size: 18px;
+      line-height: 130%;
+   }
+
+   .p {
+      font-size: 16px;
+      line-height: 150%;
+   }
+}

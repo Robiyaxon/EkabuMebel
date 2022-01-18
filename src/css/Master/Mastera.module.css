@@ -1,0 +1,113 @@
+.Wrapper{
+          margin: 50px 0 50px 0;
+}
+.Title{
+          width: 700px;
+font-family: Cormorant Garamond;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.BigBlock{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 57px;
+}
+.block1 {
+          width: 40%;
+}
+.block2{
+          width: 55%;
+}
+.block2 img{
+          float: right;
+}
+.block1 h4{
+          font-family: HelveticaNeueCyr;
+          width: 90%;
+margin-bottom: 2rem;
+font-weight: 550;
+font-size: 20px;
+line-height: 130%;
+}
+.более{
+          width: 90%;
+          font-size: 18.5px;
+          line-height: 150%;
+          font-family: HelveticaNeueCyr;
+
+}
+/* master2 */
+
+@media screen and (max-width: 770.9px) {
+          .block1 , .block2{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+          }  
+          .BigBlock{
+                    margin-top: 37px;
+                    }
+          .Wrapper{
+                    padding: 0 0.4rem;
+                    margin-top: 30px;
+                    box-sizing: border-box;
+          } 
+          .block2 img{
+                    width: 100% !important;
+                    float: none;
+                    text-align: center;
+                    
+          }
+          .block1 p{
+                    width: 80%;
+                    text-align: center;
+          }
+          .Title{
+                    width: 80%;
+                    text-align: center;
+          font-size: 22px;
+          margin: 0 auto;
+          line-height: 110%;
+          }
+          .block1 h4{
+                    width: 80%;
+                   text-align: center;
+          }
+          .block1{
+                    margin-top: 0 ;
+          }
+          .block2{
+                    text-align: center;
+                    margin-top: 1rem;
+          }
+}
+@media (min-width:771px) and (max-width:1200px) {
+.block2 img{
+          max-width: 100%;
+text-align: center;
+}
+
+.Wrapper{
+          padding:0 0.5rem;
+          box-sizing: border-box;
+          margin-top: 2rem;
+}
+.block1 , .block2{
+          width: 49%;
+}
+.более{
+          max-width: 100%;
+
+
+}
+
+.Title{
+          max-width: 100%;
+font-size: 30px;
+}
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../../css/Kuhne.module.css"
+import style from "../../css/Glavnaya/Kuhne.module.css"
 import { NavLink } from 'react-router-dom';
 const MenuValidators = (url,img1,name, key) => {
       

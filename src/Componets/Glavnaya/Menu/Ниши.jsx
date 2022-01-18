@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../../../css/Kuhne.module.css"
+import style from "../../../css/Glavnaya/Kuhne.module.css"
 import img from "../../../imgs/Полки  Ниши/1.jfif"
 import img2 from "../../../imgs/Полки  Ниши/2.jfif"
 import img3 from "../../../imgs/Полки  Ниши/3.jfif"
@@ -22,7 +22,7 @@ const Ниши = () => {
                     { url: "/glavnkikikikaya", img: img8 },
                     { url: "/glavnkikikikaya", img: img9},
               ]
-              const map2 = map.map(a => MenuValidators(a.url, a.img,"Полки / Ниши"))
+              const map2 = map.map(a => MenuValidators(a.url, a.img,"Полки / Ниши", a.img))
               return (
                     <div className={style.NavLink2}>
                           {map2}

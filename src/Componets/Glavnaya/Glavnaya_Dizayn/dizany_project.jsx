@@ -1,5 +1,5 @@
 import { React, book, reduxForm, Field, Recuerd, Input, watsap, telegram } from "../../../Imports";
-import style from "../../../css/Glavnaya_dizayner.module.css"
+import style from "../../../css/Glavnaya/Glavnaya_dizayner.module.css"
 const Dizany_project = () => {
      const onsubmit = () => {
           alert("xato")

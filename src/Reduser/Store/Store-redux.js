@@ -5,7 +5,7 @@ const { createStore, combineReducers } = require("redux");
 let reducers = combineReducers({
     GlavnayaReduser: GlavnayaReduser,
     Navbar_Reduser:Navbar_Reduser,
-    form: formReducer
+    form: formReducer, 
 });
 let store = createStore(reducers);
 export default store;

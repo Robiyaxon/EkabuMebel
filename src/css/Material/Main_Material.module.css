@@ -1,0 +1,17 @@
+.Wrapper {
+          margin-top: 2rem;
+          padding: 0 120px;
+          box-sizing: border-box;
+}
+
+@media (min-width:0) and (max-width:650.9px) {
+          .Wrapper {
+                    padding: 0 5px;
+          }
+}
+
+@media (min-width:651px) and (max-width:850.9px) {
+          .Wrapper {
+                    padding: 0 10px;
+          }
+}

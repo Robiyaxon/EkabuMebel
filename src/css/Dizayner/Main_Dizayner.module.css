@@ -1,0 +1,120 @@
+.Wrapper {
+          padding: 0 120px;
+          box-sizing: border-box;
+          margin-top: 2rem;
+}
+
+.Title {
+          font-family: Cormorant Garamond;
+          font-size: 42px;
+          line-height: 120%;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          color: #333333;
+}
+
+.Dizayner_Block {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-top: 47px;
+}
+
+.Dizayner_Block img {
+          margin-right: 40px;
+}
+.Block h6 {
+          font-family: HelveticaNeueCyr;
+          font-weight: 550;
+          font-size: 18px;
+          line-height: 130%;
+          color: #333333;
+}
+
+.Block p {
+          width: 424px;
+          font-family: HelveticaNeueCyr;
+          font-size: 16px;
+          line-height: 150%;
+          color: #333333;
+}
+
+.Block button {
+          width: 366px;
+          height: 56px;
+          background: #B71C1C;
+          color: #fff;
+          border: none;
+}
+@media (min-width:0) and (max-width:600.9px){
+          .Wrapper {
+                    padding: 0 5px;
+                    margin-top: 1rem;
+          } 
+          .Title {
+                    font-size: 32px;
+                    text-align: center;
+                    width: 100%;
+
+          }   
+          .Dizayner_Block {
+                    justify-content: center !important;
+                    margin-top: 30px;
+          }
+          .Dizayner_Block img {
+                    margin-right: 0;
+                    width: 90%;
+                    object-fit: cover;
+          }
+          .Block{
+                    width: 60%;
+                    margin-top: 2rem;
+                    text-align: center;
+          }
+          .Block h6 {
+                    font-size: 17px;
+          }
+          
+          .Block p {
+                    width: 100%;
+          }
+          
+          .Block button {
+                    width: 90%;
+                    height: 45px;
+                    font-size: 13px;
+          }
+         
+}
+@media (min-width:601px) and (max-width:1100.9px){
+          .Wrapper {
+                    padding: 0 60px;
+                    margin-top: 1rem;
+          }
+          
+          .Title {
+                    font-size: 36px;
+                    text-align: center;
+          }
+          
+          .Dizayner_Block {
+                    margin-top: 47px;
+          }
+          
+          .Dizayner_Block img {
+                    margin-right: 20px;
+          }
+          .Block{
+                    width: 40%;
+                    text-align: center;
+          }
+          .Block p {
+                    width: 100%;
+          }
+          
+          .Block button {
+                    width:100%;
+                    height: 40px;
+                    font-size: 14px;
+          }     
+}

@@ -1,0 +1,17 @@
+.Wrapper {
+          margin-top: 100px;
+          justify-content: space-between;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+}
+@media (min-width:0) and (max-width:650.9px) {
+          .Wrapper {
+                    margin-top: 50px;
+          }
+}
+@media(min-width:651px) and (max-width:1259.9px) {
+          .Wrapper {
+                    margin-top: 50px;
+          }
+}

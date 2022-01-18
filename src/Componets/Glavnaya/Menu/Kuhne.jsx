@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../../../css/Kuhne.module.css"
+import style from "../../../css/Glavnaya/Kuhne.module.css"
 import img from "../../../imgs/menu1.png"
 import img2 from "../../../imgs/menu2.png"
 import img3 from "../../../imgs/menu3.png"
@@ -22,7 +22,7 @@ const Kuhne = () => {
             { id:8, img: img8, name: "Радиусные шкафы-купе" },
             { id:9, img: img9, name: "Корпусные шкаф-купе" },
       ]
-      const map2 = map.map(a => MenuValidators("/kuhne", a.img, a.name))
+      const map2 = map.map(a => MenuValidators("/mАТЕРИАЛЫ/kuhne", a.img, a.name, a.id))
    
       return (
             <div className={style.NavLink2}>

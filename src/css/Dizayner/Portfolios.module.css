@@ -1,0 +1,63 @@
+.Partfolios{
+          justify-content: space-between;
+          display: flex;
+          margin-top: 80px;
+          flex-wrap: wrap;
+
+}
+.Block{
+          width: 22%;
+          margin-bottom: 1rem;
+}
+.title{
+          text-align: center;
+          margin-top: 10px;
+          font-family: HelveticaNeueCyr;
+
+}
+.Button{    
+          width: 195px;
+          font-family: HelveticaNeueCyr;
+          height: 56px;
+           padding: 20px, 32px, 20px, 32px;
+           background: #B71C1C;
+           color: #fff;
+           border: none;
+}
+.Block_Button{
+          text-align: center;
+          margin-top: 50px;
+}
+@media (min-width:0) and (max-width:650.9px){
+          .Partfolios{
+                    justify-content: center;
+                    margin-top: 60px;
+          
+          }
+          .Block{
+                    width: 84%;
+                    margin-bottom: 1rem;
+          
+          }
+          .title{
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: HelveticaNeueCyr;
+          
+          }
+          .Button{    
+                    width: 60%;
+                    height: 45px;
+                     padding: 0;
+          }
+          .Block_Button{
+                    text-align: center;
+                    margin-top: 30px;
+          }       
+}
+@media (min-width:601px) and (max-width:1100.9px){
+          .Block{
+                    width: 45%;
+                    margin-bottom: 1rem;          
+          }  
+}

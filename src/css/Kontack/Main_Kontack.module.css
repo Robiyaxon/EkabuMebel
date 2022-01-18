@@ -1,0 +1,188 @@
+.Wrapper {
+          padding: 0 120px;
+          box-sizing: border-box;
+          margin-top: 2rem;
+}
+
+.title {
+          font-size: 42px;
+          color: #333333;
+}
+
+.title,
+.организации h1 {
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          font-family: Cormorant Garamond;
+}
+
+.title,
+.Tel,
+.social_network {
+          line-height: 130%;
+
+}
+
+.Internet_adres {
+          margin-top: 45px;
+          justify-content: space-between;
+
+}
+
+.Internet_adres,
+.Block {
+          display: flex;
+          flex-wrap: wrap;
+}
+
+.Block {
+          width: 24%;
+}
+
+.Tel {
+          width: 100%;
+          font-family: HelveticaNeueCyr;
+          font-weight: 550;
+          font-size: 22px;
+          margin-bottom: 10px;
+          color: #333333;
+}
+
+.social_network_Wrapper {
+          width: 100%;
+}
+
+.social_network {
+          font-family: HelveticaNeueCyr;
+          font-size: 16px;
+          text-decoration-line: underline;
+          margin-left: 10px;
+}
+
+.message_Send,
+.social_network_Wrapper {
+          display: flex;
+          align-items: center;
+}
+
+.message_Send {
+          border: 1px solid #B71C1C;
+          box-sizing: border-box;
+          width: 260px;
+          height: 55px;
+          text-transform: uppercase;
+          text-decoration: none;
+          justify-content: center;
+          font-size: 14px;
+          color: #B71C1C;
+
+}
+
+.message_Send:hover {
+          color: #B71C1C;
+}
+
+.Tel:hover,
+.social_network:hover {
+          color: black;
+}
+
+.организации {
+          margin-top: 100px;
+}
+
+.организации h1 {
+          font-size: 36px;
+          line-height: 100%;
+          margin-bottom: 1rem;
+}
+
+.организации p {
+          font-family: HelveticaNeueCyr;
+          font-size: 16px;
+          line-height: 150%;
+          margin: 0;
+}
+
+.организации p,
+.организации h1,
+.social_network {
+          color: #333333;
+}
+
+@media(min-width:0) and (max-width:450.9px) {
+          .Wrapper {
+                    padding: 0 10px;
+                    margin-top: 1rem;
+          }
+
+          .title,
+          .Block,
+          .social_network_Wrapper {
+                    width: 100%;
+          }
+
+          .title {
+                    font-size: 32px;
+                    text-align: center;
+          }
+
+          .Internet_adres {
+                    margin-top: 25px;
+          }
+
+          .social_network_Wrapper {
+                    margin-bottom: 0.5rem;
+          }
+
+          .Tel {
+                    font-size: 18px;
+          }
+
+          .организации {
+                    margin-top: 50px;
+          }
+
+          .организации h1 {
+                    font-size: 26px;
+                    margin-bottom: 2.5rem;
+          }
+
+          .организации p {
+                    font-size: 15px;
+          }
+}
+
+@media(min-width:451px) and (max-width:1240.9px) {
+          .Wrapper {
+                    padding: 0 20px;
+                    margin-top: 2rem;
+          }
+
+          .title {
+                    font-size: 36px;
+          }
+
+          .Block {
+                    width: 48%;
+                    margin-bottom: 1rem;
+                    display: flex;
+                    flex-wrap: wrap;
+          }
+
+          .организации {
+                    margin-top: 60px;
+          }
+
+          .организации h1 {
+                    font-size: 28px;
+          }
+
+          .Tel {
+                    text-align: center;
+          }
+
+          .social_network_Wrapper {
+                    justify-content: center;
+          }
+}

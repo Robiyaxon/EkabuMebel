@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../../css/TextGlavnaya.module.css"
+import style from "../../css/Glavnaya/TextGlavnaya.module.css"
 export const TextGlavnaya = () => {
     return (
         <div className={style.TextGlavnaya}>
@@ -9,6 +9,6 @@ export const TextGlavnaya = () => {
             <div className={style.Block}><h6 className={style.h6}>Качественные материалы</h6><p className={style.p}>Используем только прочные, проверенные годами материалы.</p></div>
             <div className={style.Block}><h6 className={style.h6}>Мы за честные цены</h6><p className={style.p}>Не накручиваем торговую наценку, благодаря собственному производству.</p></div>
             <div className={style.Block}><h6 className={style.h6}>Реализуем любую вашу идею</h6><p className={style.p}>У нас более 100 000 материалов, цветов и текстур.</p></div>
-        </div> 
+        </div>
     );
 };

@@ -1,9 +1,6 @@
-import React from 'react';
-import style from "../../css/Map.module.css";
-import VK from "../../imgs/Footer/vk.png"
+import style from "../../css/Footer/Block2.module.css";
+import {VK,React,QueryBuilderIcon,RoomIcon} from "../../Imports"
 import instagram from "../../imgs/Footer/instagram.svg"
-import RoomIcon from '@material-ui/icons/Room';
-import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
 export const Block2 = () => {
           return (
                     <div className={style.Block2}>

@@ -1,7 +1,6 @@
 const Glavnaya_Menu = " Glavnaya_Menu"
 let map = [
     { url: "/glavnaya", id: 1, name: "Кухни" },
-    { url: '/Shkafe', id: 2, name: "Шкафы-купе" },
     { url: "/", id: 3, name: "Мебель для ванной" },
     { url: "/", id: 4, name: "Прихожие" },
     { url: "/", id: 5, name: "Детская мебель" },

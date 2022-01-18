@@ -1,23 +1,19 @@
-import React from 'react';
+import style from "../../css/Material/Main_Material.module.css"
+import { Shagov,React,Route,Kuhne} from '../../Imports';
 const MainMaterial = () => {
-          return (
-                    <div>
-<KuhneMaterial/>
-                    </div>
-          );
+   return (
+      <div className={style.Wrapper}>
+         <Route path="/mАТЕРИАЛЫ/kuhne" render={() => <Kuhne />} />
+         <Shagov />
+
+      </div>
+   );
 };
-const MaterialCopy = ({title}) => {
-          return (
-                    <div>
-                          <h1>{title}</h1>    
-                    </div>
-          );
+const Start = () => {
+   return (
+      <div>
+         
+      </div>
+   );
 };
-const KuhneMaterial=()=>{
-          return (
-                    <div>
-                         <MaterialCopy title={"КУХНИ НА ЗАКАЗ"}/> 
-                    </div>
-          );
-}
 export default MainMaterial;

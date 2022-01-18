@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 ::-webkit-scrollbar { width: 5px !important;}
   ::-webkit-scrollbar-thumb { background-color: #ffc222 !important; }
   .map {

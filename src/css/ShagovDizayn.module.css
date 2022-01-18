@@ -12,13 +12,15 @@
 .block {
           display: flex;
           margin-top: 60px;
+          flex-wrap: wrap;
           justify-content: space-between;
 }
 
 .reference {
           width: 450px;
-          padding-bottom: 0.5rem;
-          margin-left: 40px;
+          border-bottom: 2px solid red;
+          padding-bottom: 1.4rem;
+          margin-left: 90px;
 }
 
 .img {
@@ -35,7 +37,7 @@
 @media(min-width:0) and (max-width:661.9px) {
           .title {
                     line-height: 28px;
-                    font-size: 22px;
+                    font-size: 20px;
                     margin: 0 auto;
                     width: 80% !important;
                     text-align: center;
@@ -59,28 +61,35 @@
 
           .reference {
                     padding: 0.5rem;
-                    margin-left: 0;
                     text-align: center;
-                    margin: 5px 0;
+                    margin-left: 0;
+                    margin: 1px 0;
                     width: 100%;
           }
 
           .Block23 {
                     width: 80%;
-                    margin: 0 auto;
+                    margin: 1rem auto;
           }
 }
 
-@media(min-width:661px) and (max-width:1400.9px) {
+@media(min-width:662px) and (max-width:1400.9px) {
           .title {
                     width: 100%;
           }
 
           .img {
-                    width: 50%;
+                    width: 100%;
           }
-
+.block{
+          width: 100%;
+}
+.Block23{
+          width: 100%;
+          margin-top: 3rem ;
+}
           .reference {
                     width: 80%;
+                    padding-bottom: 1rem;
           }
 }

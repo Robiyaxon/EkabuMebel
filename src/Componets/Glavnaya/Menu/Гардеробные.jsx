@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../../../css/Kuhne.module.css"
+import style from "../../../css/Glavnaya/Kuhne.module.css"
 import img from "../../../imgs/Гардеробные  стеллажные/1.jpg"
 import img2 from "../../../imgs/Гардеробные  стеллажные/2.jpg"
 import img3 from "../../../imgs/Гардеробные  стеллажные/3.jfif"

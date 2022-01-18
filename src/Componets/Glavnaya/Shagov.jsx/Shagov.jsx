@@ -1,10 +1,8 @@
-import { React, Shagovstyle, reduxForm, img, img2, img3, Shagov2 } from "../../../Imports"
+import { React, Shagovstyle, reduxForm, img, watsap, img3, Shagov2 } from "../../../Imports"
 import 'antd/dist/antd.css';
-import { SizeWrapper } from "./SizeWrapper";
 import { ShagovData } from "./ShagovData";
-import { ShagovDizayn } from "./ShagovDizayn";
 const map = [
-     { id: 1, img: img2, name: "НАПИСАТЬ В WHATSAPP" },
+     { id: 1, img: watsap, name: "НАПИСАТЬ В WHATSAPP" },
      { id: 2, img: img3, name: "НАПИСАТЬ В telegram" }]
 const map2 = map.map(a => <a href="#a" key={a.id} className={Shagovstyle.wrapper}>
      <img src={a.img} alt="" />
@@ -24,8 +22,6 @@ const Shagov = () => {
                          {map2}
                     </div>    </div>
                <Shagov2 />
-               <SizeWrapper />
-               <ShagovDizayn />
           </div>
      );
 }

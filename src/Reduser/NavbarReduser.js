@@ -4,9 +4,9 @@ let map = [
     { id: 2, url: "/mАТЕРИАЛЫ", name: "МАТЕРИАЛЫ" },
     { id: 3, url: "/gАРАНТИЯ", name: "ГАРАНТИЯ" },
     { id: 4, url: "/pОЛЕЗНО", name: "ПОЛЕЗНО" },
-    { id: 5, url: "/pОРТФОЛИО", name: "ПОРТФОЛИО" },
+    { id: 5, url: "/portfolio", name: "ПОРТФОЛИО" },
     { id: 6, url: "/Pосмотреть", name: "ДИЗАЙНЕР" },
-    { id: 7, url: "/kОНТАКТЫ", name: "КОНТАКТЫ" }]
+    { id: 7, url: "/kontact", name: "КОНТАКТЫ" }]
 const Navbar_Reduser = (state = map, action) => {
     switch (action.type) {
         case Navbar:

@@ -1,0 +1,24 @@
+.Map {
+          width: 50%;
+          height: 370px;
+          overflow: hidden;
+}
+
+.Map_block {
+          width: 99.9% !important;
+          height: 100%;
+}
+
+@media (min-width:0) and (max-width:650.9px) {
+          .Map {
+                    width: 95%;
+                    height: 443px;
+                    margin: 0 auto;
+          }
+}
+
+@media(min-width:651px) and (max-width:1259.9px) {
+          .Map {
+                    width: 100%;
+          }
+}

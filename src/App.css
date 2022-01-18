@@ -10,3 +10,14 @@
 .ant-modal-body{
           padding: 0 !important;
 }
+.ant-image-preview-img {
+          width: 50% !important;
+          height: auto !important;
+          flex-wrap: wrap;
+}
+@media(min-width:0) and (max-width:700.9px){
+          .ant-image-preview-img {
+                    width: 90% !important;
+                    height: auto !important;
+          }     
+}

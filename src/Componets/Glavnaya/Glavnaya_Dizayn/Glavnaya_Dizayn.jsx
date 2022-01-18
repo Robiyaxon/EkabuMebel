@@ -1,5 +1,5 @@
 import { React, Vera,Natalya,Marina,Darya } from "../../../Imports";
-import style from "../../../css/Glavnaya_dizayner.module.css"
+import style from "../../../css/Glavnaya/Glavnaya_dizayner.module.css"
 import { NavLink } from "react-router-dom";
 const map=[
           {name:"Вера",img:Vera},
@@ -7,7 +7,7 @@ const map=[
           {name:"Дарья",img:Darya},
           {name:"Наталья",img:Natalya}
 ]
-const map2=map.map(a=> <div className={style.block}>
+const map2=map.map(a=> <div key={a.name} className={style.block}>
           <img src={a.img} alt="" />
           <p>{a.name}</p>
           <NavLink style={{color:"black"}} to="/Pосмотреть">Посмотреть работы</NavLink>

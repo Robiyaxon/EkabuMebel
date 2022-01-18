@@ -1,6 +1,5 @@
-import { React, Dialog, DialogContent, DialogContentText, DialogTitle, Shagovstyle, stoll, message } from "../../../Imports";
-import { MyPostData } from "./Shagov";
-
+import { React, Shagovstyle, stoll, message } from "../../../Imports";
+import { newFunction } from "./newFunction";
 export const SizeWrapper = (props) => {
      const [open, setOpen] = React.useState(false);
      const handleClickOpen = () => {
@@ -15,21 +14,7 @@ export const SizeWrapper = (props) => {
      };
      return (
           <div>
-               <Dialog
-                    open={open}
-
-                    onClose={handleClose2}
-                    aria-labelledby="alert-dialog-title"
-                    aria-describedby="alert-dialog-description"
-               >
-
-                    <DialogTitle className={Shagovstyle.DialogTitle} id="alert-dialog-title">{"Узнать стоимость изделия"}</DialogTitle>
-                    <DialogContent>
-                         <DialogContentText id="alert-dialog-description">
-                              <MyPostData onSubmit={handleClose} />
-                         </DialogContentText>
-                    </DialogContent>
-               </Dialog>
+               {newFunction(open, handleClose2, handleClose)}
                <div className={Shagovstyle.sizeWrapper}>
                     <div className={Shagovstyle.size}>
                          <h1>Замерщики точно снимут размеры помещения</h1>

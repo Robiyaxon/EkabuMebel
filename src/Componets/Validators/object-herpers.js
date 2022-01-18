@@ -1,5 +1,5 @@
 import a from "../Validators/helps.module.css"
-import '../../css/Glavnaya.css'
+import '../../css/Glavnaya/Glavnaya.css'
 import React, { useState} from 'react';
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 const ModalExample  = (img, img2, text, ...props) => {

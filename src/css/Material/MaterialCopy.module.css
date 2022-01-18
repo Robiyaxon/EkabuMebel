@@ -1,0 +1,78 @@
+.Title {
+          font-family: Cormorant Garamond;
+          font-size: 42px;
+          line-height: 120%;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          color: #333333;
+}
+
+.Block {
+          border-bottom: 2px solid red;
+          width: 30%;
+          margin-bottom: 1rem
+}
+
+.Block p {
+          font-family: HelveticaNeueCyr;
+          font-size: 16px;
+          line-height: 150%;
+          color: #333333;
+}
+
+.Block h6 {
+          font-family: HelveticaNeueCyr;
+          font-weight: 550;
+          font-size: 18px;
+          line-height: 130%;
+          color: #333333;
+}
+
+.Wrapper {
+          flex-wrap: wrap;
+          display: flex;
+          margin-top: 35px;
+          justify-content: space-between;
+}
+
+@media (min-width:0) and (max-width:650.9px) {
+          .Title {
+                    text-align: center;
+                    font-size: 30px;
+                    width: 100%;
+          }
+
+          .Block {
+                    width: 80%;
+                    margin-bottom: 1rem
+          }
+
+          .Block h6 {
+                    font-size: 17px;
+          }
+
+          .Wrapper {
+                    margin-top: 24px;
+                    justify-content: center;
+          }
+}
+@media (min-width:651px) and (max-width:920.9px) {
+          .Title {
+                    text-align: center;
+                    font-size: 30px;
+                    width: 100%;
+          }
+
+          .Block {
+                    width: 45%;
+                    margin-bottom: 1rem
+          }
+
+          .Block h6 {
+                    font-size: 17px;
+          }
+
+          .Wrapper {
+                    margin-top: 24px;
+          }
+}
